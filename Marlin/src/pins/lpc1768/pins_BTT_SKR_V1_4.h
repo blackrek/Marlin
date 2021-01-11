@@ -324,6 +324,8 @@
     #define LCD_PINS_ENABLE         EXPA1_05_PIN
     #define LCD_PINS_D4             EXPA1_07_PIN
 
+    #define BTN_BACK                EXPA1_09_PIN
+
   #elif ENABLED(CR10_STOCKDISPLAY)
     #define BTN_ENC                 EXPA1_09_PIN  // (58) open-drain
     #define LCD_PINS_RS             EXPA1_04_PIN
